@@ -27,9 +27,7 @@ brew unlink  docker
 brew install docker
 brew switch  docker 1.2.0
 docker --version
-```
-
-	ref - https://gist.github.com/evgeny-goldin/636b408832524542c789
+```ref - https://gist.github.com/evgeny-goldin/636b408832524542c789
 
 5. Install [dvm](http://fnichol.github.io/dvm/)
 ```bash
