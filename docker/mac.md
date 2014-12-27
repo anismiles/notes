@@ -1,23 +1,27 @@
 ## Notes from installing [Docker](https://www.docker.com) on Mac
 
-1. Install [Homebrew](http://brew.sh/).
-  ```bash
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-  ```
+### Install [Homebrew](http://brew.sh/).
 
-2. Install [VMWare](https://www.virtualbox.org/wiki/Downloads) v4.3.4+
-  ```bash
-  wget http://dlc-cdn.sun.com/virtualbox/4.3.20/VirtualBox-4.3.20-96996-OSX.dmg
-  ```
+```bash
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+### Install [VMWare](https://www.virtualbox.org/wiki/Downloads) v4.3.4+
+
+```bash
+wget http://dlc-cdn.sun.com/virtualbox/4.3.20/VirtualBox-4.3.20-96996-OSX.dmg
+```
 Run installer.
 
-3. Install [Vagrant](https://www.vagrantup.com/) v1.4.0+
-  ```bash
-  wget https://dl.bintray.com/mitchellh/vagrant/vagrant_1.7.1.dmg
-	```
+### Install [Vagrant](https://www.vagrantup.com/) v1.4.0+
+
+```bash
+wget https://dl.bintray.com/mitchellh/vagrant/vagrant_1.7.1.dmg
+```
 Run installer.
 
-4. Install [Docker](https://www.docker.com/) __v.1.2.0__
+### Install [Docker](https://www.docker.com/) __v.1.2.0__
+
 ```bash
 brew tap homebrew/boneyard
 cd $( brew --prefix )
@@ -30,7 +34,8 @@ docker --version
 ```
 ref - https://gist.github.com/evgeny-goldin/636b408832524542c789
 
-5. Install [dvm](http://fnichol.github.io/dvm/)
+### Install [dvm](http://fnichol.github.io/dvm/)
+
 ```bash
 brew tap fnichol/dvm
 brew install dvm
